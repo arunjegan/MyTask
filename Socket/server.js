@@ -4,7 +4,6 @@ const http = require('http');
 const socket = require('socket.io');
 const path = require('path');
 const port = 8000;
-const generateMessage = require('./utilits/messages.js')
 const server = http.createServer(app);
 const io = socket(server);
 let myRoom = '';
